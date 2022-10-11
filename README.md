@@ -31,8 +31,8 @@ I should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/DianaVCruz/product-preview-component-fm/)
+- Live Site URL: [Netlify](https://product-review-component-fm.netlify.app/)
 
 ## My process
 
