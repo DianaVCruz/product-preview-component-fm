@@ -14,7 +14,7 @@ body{
   grid-template-columns: 1fr;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, .3);
 }
-.card__img{
+.card__picture{
   max-height: 17rem;
 }
 .card__content{
@@ -85,7 +85,7 @@ body{
     max-height: 28rem;
     grid-template-columns: repeat(2, 1fr);
   }
-  .card__img{
+  .card__picture{
     max-height: 100%;
   }
   .card__content{
