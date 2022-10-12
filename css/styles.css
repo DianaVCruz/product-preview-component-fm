@@ -14,6 +14,10 @@ body{
   grid-template-columns: 1fr;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, .3);
   transition: .5s;
+  flex-basis: 50%;
+}
+.card__picture{
+  overflow: hidden;
 }
 .card__content{
   background: var(--white);
@@ -82,6 +86,14 @@ body{
     max-width: 42rem;
     max-height: 28rem;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .card__img{
+    transition: .5s;
+    transform: scale(1.1);
+  }
+  .card__img:hover{
+    filter: brightness(1.1);
+    transform: scale(1);
   }
   .card__content{
     padding: 2rem;
