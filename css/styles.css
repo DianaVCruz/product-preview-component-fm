@@ -1,8 +1,7 @@
 @import url(reset.css);
 body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-content: center;
 }
 
 .card{
@@ -19,6 +18,7 @@ body{
 }
 .card__picture{
   overflow: hidden;
+  max-height: 100%;
 }
 .card__content{
   background: var(--white);
