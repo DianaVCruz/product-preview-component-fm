@@ -13,9 +13,7 @@ body{
   display: grid;
   grid-template-columns: 1fr;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, .3);
-}
-.card__img{
-  max-height: 100%;
+  transition: .5s;
 }
 .card__content{
   background: var(--white);
